@@ -12,7 +12,7 @@ local resp = requests.get("http://localhost:9090/index.html",params)
 print(resp.text)
 print "https"
 -- local resp = requests.get "https://localhost:8444/index.html"
-local resp = requests.get "http://localhost:9090/index.html"
+local resp = requests.get "http://localhost:9090/hello/michal"
 
 print(resp.text)
 
